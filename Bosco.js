@@ -979,17 +979,17 @@ const ftrol = {
         timestampe = speed();
         latensie = speed() - timestampe
  hehe = `
- ▢ Hɪ Bʀᴏ @${sender.split("@")[0]}
- ▢ Pʀɪᴠᴀᴛᴇ : ${privat.length}
- ▢ Gʀᴏᴜᴘs : ${groups.length}
+ ▢ !ʜᴏʟᴀ! @${sender.split("@")[0]}
+ ▢ ᴘʀɪᴠᴀᴅᴏ : ${privat.length}
+ ▢ ɢʀᴜᴘᴏꜱ : ${groups.length}
  ▢ Tᴏᴛᴀʟ : ${totalChat.length}
- ▢ Sᴘᴇᴇᴅ : ${latensie.toFixed(4)}
- ▢ Bᴀᴛᴛᴇʀʏ : ${baterai}%\n
+ ▢ ᴠᴇʟᴏᴄɪᴅᴀᴅ : ${latensie.toFixed(4)}
+ ▢ ʙᴀᴛᴇʀÍᴀ : ${baterai}%\n
  ${jmn} -  ${jmo}\n${week} - ${calender}
  `
  menubutton = [{buttonId:`${prefix}help`,buttonText:{displayText:'MENU'},type:1},
  {buttonId:`${prefix}sc`,buttonText:{displayText:'SCRIPT'},type:1},
- {buttonId:`${prefix}boscogroup`,buttonText:{displayText:'BOT GROUP'},type:1}
+ {buttonId:`${prefix}boscogroup`,buttonText:{displayText:'BOT GRUPO'},type:1}
 ]
  menumessage = { contentText: ` `, footerText: `${hehe}`, buttons: menubutton, headerType: 6, locationMessage: bosco2.message.locationMessage}
  bosco.sendMessage(from, menumessage, MessageType.buttonsMessage, { caption: 'hehe', "contextInfo": { "mentionedJid" : [sender]},})
